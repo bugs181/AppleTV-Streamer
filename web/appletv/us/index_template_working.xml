@@ -1,0 +1,35 @@
+doctype xml
+atv
+  head
+    script(src="https://trailers.apple.com/appletv/us/js/main.js")
+  
+  body
+    scroller(id="com.sample.movie-shelf")
+      items
+
+        - var shelfs = ["Popular","Just Added"]
+        - var counter = 1
+        - for (var shelf of shelfs)
+          collectionDivider(alignment="left", accessibilityLabel=shelf)
+            title= shelf
+          
+          - counter++
+          shelf(id="shelf_" + counter)
+            sections
+              shelfSection
+                items
+                  -
+                    var mediaObjectsOld = 
+                    [
+                      {
+                        id: "123",
+                        title: "The Falling",
+                        poster: "https://trailers.apple.com/trailers/independent/thefalling/images/poster-large.jpg"
+                      }
+                     ]
+                  
+                    for (var mediaObject of mediaObjects)
+
+                  moviePoster(id=mediaObject.id, accessibilityLabel=mediaObject.title) 
+                    title=mediaObject.title
+                    image=mediaObject.poster

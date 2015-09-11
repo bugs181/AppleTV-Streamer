@@ -1,0 +1,31 @@
+<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<atv>
+	<head>
+		<%= scriptUrls() %>
+	<\/head>
+	<body>
+		<viewWithNavigationBar id=\"trailers_navigation\" onNavigate=\"Trailers.handleOnNavigate( event )\">
+			<navigation>
+				<navigationItem id=\"nav1\">
+					<title>Home<\/title>
+					<url>http:\/\/trailers.apple.com\/appletv\/us\/index.xml<\/url>
+				<\/navigationItem>
+				<navigationItem id=\"nav2\">
+					<title>Popular<\/title>
+					<url>http:\/\/trailers.apple.com\/appletv\/us\/calendar.xml<\/url>
+				<\/navigationItem>
+				<navigationItem id=\"nav3\">
+					<title>Filter<\/title>
+					<url>http:\/\/trailers.apple.com\/appletv\/us\/browse.xml<\/url>
+				<\/navigationItem>
+				<navigationItem id=\"nav4\">
+					<title>Browse<\/title>
+				<\/navigationItem>
+				<navigationItem id=\"nav5\">
+					<title>Search<\/title>
+					<url>http:\/\/trailers.apple.com\/appletv\/us\/searchtrailers.xml<\/url>
+				<\/navigationItem>
+			<\/navigation>
+		<\/viewWithNavigationBar>
+	<\/body>
+<\/atv>

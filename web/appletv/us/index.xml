@@ -1,0 +1,36 @@
+doctype xml
+atv
+  head
+    script(src="https://trailers.apple.com/appletv/us/js/main.js")
+  
+  body
+    scroller(id="com.sample.movie-shelf")
+      items
+
+        - var shelfCount = 0
+        - for (var shelf of shelfs)
+          collectionDivider(alignment="left", accessibilityLabel=shelf)
+            title= shelf
+
+          - shelfCount++
+
+          - var groups = Math.ceil(mediaObjects.length / 7)
+    
+          - var counter = 0
+          - for (var group = 1; group <= groups; group++)
+
+              shelf(id="shelf_" + shelfCount)
+                sections
+                  shelfSection
+                    items
+                     - for (var mediaIndex = 1; mediaIndex <= 7; mediaIndex++) {
+                         - if (!mediaObjects[counter]) break;
+                         - mediaObject = mediaObjects[counter]
+
+                         if (mediaObject.section !== shelf)
+                          moviePoster(id=mediaObject.id, accessibilityLabel=mediaObject.title) 
+                            title=mediaObject.title
+                            image=mediaObject.images.poster                  
+
+                         - counter++
+                     - }

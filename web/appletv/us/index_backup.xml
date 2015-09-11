@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><atv>
+	<head>
+		<script src="https://trailers.apple.com/appletv/us/js/main.js" />
+	</head>
+  <body>
+    <scroller id="com.sample.movie-shelf">
+      <items>
+
+      		<collectionDivider alignment="left" accessibilityLabel="{{=value}}">
+						<title>{{=value}}!</title>
+					</collectionDivider>
+
+		        <shelf id="shelf_2">
+		          <sections>
+		            <shelfSection>
+			          <items>
+													<moviePoster id="shelf_item_6" accessibilityLabel="The Falling" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/thefalling/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/thefalling/videos/trailer-hd.xml');">
+								<title>The Falling</title>
+																<image>https://trailers.apple.com/trailers/independent/thefalling/images/poster-large.jpg</image>
+							</moviePoster>
+													<moviePoster id="shelf_item_7" accessibilityLabel="Black Mass" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/wb/blackmass/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/wb/blackmass/videos/trailer2-hd.xml');">
+								<title>Black Mass</title>
+																<image>https://trailers.apple.com/trailers/wb/blackmass/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_8" accessibilityLabel="Heroes of Dirt" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/heroesofdirt/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/heroesofdirt/videos/trailer-hd.xml');">
+								<title>Heroes of Dirt</title>
+																<image>https://trailers.apple.com/trailers/independent/heroesofdirt/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_9" accessibilityLabel="Assassination" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/assassination/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/assassination/videos/trailer2-hd.xml');">
+								<title>Assassination</title>
+																<image>https://trailers.apple.com/trailers/independent/assassination/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_10" accessibilityLabel="Zoolander 2" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/paramount/zoolander2/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/paramount/zoolander2/videos/trailer-hd.xml');">
+								<title>Zoolander 2</title>
+																<image>https://trailers.apple.com/trailers/paramount/zoolander2/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_11" accessibilityLabel="Freeheld" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/summit/freeheld/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/summit/freeheld/videos/trailer-hd.xml');">
+								<title>Freeheld</title>
+																<image>https://trailers.apple.com/trailers/summit/freeheld/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+
+													<moviePoster id="shelf_item_11" accessibilityLabel="Freeheld" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/summit/freeheld/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/summit/freeheld/videos/trailer-hd.xml');">
+								<title>Freeheld</title>
+																<image>https://trailers.apple.com/trailers/summit/freeheld/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													
+								              </items>
+		            </shelfSection>
+		          </sections>
+		        </shelf>
+									<collectionDivider alignment="left" accessibilityLabel="Just Added">
+					<title>Just Added</title>
+				</collectionDivider>
+		        <shelf id="shelf_3">
+		          <sections>
+		            <shelfSection>
+			          <items>
+													<moviePoster id="shelf_item_56" accessibilityLabel="Mission: Impossible Rogue Nation" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/paramount/missionimpossibleroguenation/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/paramount/missionimpossibleroguenation/videos/trailer2-hd.xml');">
+								<title>Mission: Impossible Rogue Nation</title>
+																<image>https://trailers.apple.com/trailers/paramount/missionimpossibleroguenation/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_57" accessibilityLabel="Vacation" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/wb/vacation/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/wb/vacation/videos/trailer-hd.xml');">
+								<title>Vacation</title>
+																<image>https://trailers.apple.com/trailers/wb/vacation/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_58" accessibilityLabel="Ant-Man" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/marvel/antman/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/marvel/antman/videos/trailer-hd.xml');">
+								<title>Ant-Man</title>
+																<image>https://trailers.apple.com/trailers/marvel/antman/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_59" accessibilityLabel="Minions" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/universal/minions/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/universal/minions/videos/trailer2-hd.xml');">
+								<title>Minions</title>
+																<image>https://trailers.apple.com/trailers/universal/minions/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_60" accessibilityLabel="Pixels" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/sony_pictures/pixels/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/sony_pictures/pixels/videos/trailer2-hd.xml');">
+								<title>Pixels</title>
+																<image>https://trailers.apple.com/trailers/sony_pictures/pixels/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_61" accessibilityLabel="Trainwreck" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/universal/trainwreck/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/universal/trainwreck/videos/trailer-hd.xml');">
+								<title>Trainwreck</title>
+																<image>https://trailers.apple.com/trailers/universal/trainwreck/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													
+								              </items>
+		            </shelfSection>
+		          </sections>
+		        </shelf>
+
+
+
+		        <shelf id="shelf_4">
+		          <sections>
+		            <shelfSection>
+			          <items>
+													<moviePoster id="shelf_item_88" accessibilityLabel="Shaun the Sheep Movie" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/lions_gate/shaunthesheepmovie/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/lions_gate/shaunthesheepmovie/videos/trailer-hd.xml');">
+								<title>Shaun the Sheep Movie</title>
+																	<subtitle>8/05</subtitle>
+																<image>https://trailers.apple.com/trailers/lions_gate/shaunthesheepmovie/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_89" accessibilityLabel="Assassination" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/assassination/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/assassination/videos/trailer2-hd.xml');">
+								<title>Assassination</title>
+																	<subtitle>8/07</subtitle>
+																<image>https://trailers.apple.com/trailers/independent/assassination/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_90" accessibilityLabel="Call Me Lucky" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/callmelucky/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/callmelucky/videos/trailer-hd.xml');">
+								<title>Call Me Lucky</title>
+																	<subtitle>8/07</subtitle>
+																<image>https://trailers.apple.com/trailers/independent/callmelucky/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_91" accessibilityLabel="Cop Car" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/copcar/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/copcar/videos/trailer-hd.xml');">
+								<title>Cop Car</title>
+																	<subtitle>8/07</subtitle>
+																<image>https://trailers.apple.com/trailers/independent/copcar/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_92" accessibilityLabel="Dark Places" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/independent/darkplaces/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/independent/darkplaces/videos/trailer-hd.xml');">
+								<title>Dark Places</title>
+																	<subtitle>8/07</subtitle>
+																<image>https://trailers.apple.com/trailers/independent/darkplaces/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													<moviePoster id="shelf_item_93" accessibilityLabel="The Diary of a Teenage Girl" onSelect="loadTrailerDetailPage('https://trailers.apple.com/appletv/us/studios/sony/thediaryofateenagegirl/index-hd.xml');"  onPlay="atv.loadURL('https://trailers.apple.com/appletv/us/studios/sony/thediaryofateenagegirl/videos/trailer-hd.xml');">
+								<title>The Diary of a Teenage Girl</title>
+																	<subtitle>8/07</subtitle>
+																<image>https://trailers.apple.com/trailers/sony/thediaryofateenagegirl/images/poster-large.jpg</image>
+								<defaultImage>resource://Poster.png</defaultImage>
+							</moviePoster>
+													
+								              </items>
+		            </shelfSection>
+		          </sections>
+		        </shelf>
+
+		      </items>
+    </scroller>
+  </body>
+</atv>

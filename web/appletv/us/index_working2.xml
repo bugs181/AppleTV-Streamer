@@ -1,0 +1,41 @@
+<atv>
+  <head>
+    <script src="https://trailers.apple.com/appletv/us/js/main.js"/>
+  </head>
+  <body>
+    <scroller id="com.sample.movie-shelf">
+      <items>
+        <collectionDivider alignment="left" accessibilityLabel="Popular">
+          <title>Popular</title>
+        </collectionDivider>
+        <shelf id="shelf_2">
+          <sections>
+            <shelfSection>
+              <items>
+                <moviePoster id="123" accessibilityLabel="TheFalling">
+                  <title>The Falling</title>
+                  <image>https://trailers.apple.com/trailers/independent/thefalling/images/poster-large.jpg</image>
+                </moviePoster>
+              </items>
+            </shelfSection>
+          </sections>
+        </shelf>
+        <collectionDivider alignment="left" accessibilityLabel="JustAdded">
+          <title>Just Added</title>
+        </collectionDivider>
+        <shelf id="shelf_3">
+          <sections>
+            <shelfSection>
+              <items>
+                <moviePoster id="1234" accessibilityLabel="TheFalling">
+                  <title>The Falling</title>
+                  <image>https://trailers.apple.com/trailers/independent/thefalling/images/poster-large.jpg</image>
+                </moviePoster>
+              </items>
+            </shelfSection>
+          </sections>
+        </shelf>
+      </items>
+    </scroller>
+  </body>
+</atv>
